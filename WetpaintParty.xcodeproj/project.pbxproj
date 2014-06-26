@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908F1B8A195C733800C1AE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B89195C733800C1AE4B /* Foundation.framework */; };
+		908F1B8C195C733800C1AE4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B8B195C733800C1AE4B /* CoreGraphics.framework */; };
+		908F1B8E195C733800C1AE4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B8D195C733800C1AE4B /* UIKit.framework */; };
+		908F1B90195C733800C1AE4B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B8F195C733800C1AE4B /* SpriteKit.framework */; };
+		908F1B96195C733800C1AE4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 908F1B94195C733800C1AE4B /* InfoPlist.strings */; };
+		908F1B98195C733800C1AE4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1B97195C733800C1AE4B /* main.m */; };
+		908F1B9C195C733800C1AE4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1B9B195C733800C1AE4B /* AppDelegate.m */; };
+		908F1B9F195C733800C1AE4B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F1B9D195C733800C1AE4B /* Main_iPhone.storyboard */; };
+		908F1BA2195C733800C1AE4B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F1BA0195C733800C1AE4B /* Main_iPad.storyboard */; };
+		908F1BA5195C733800C1AE4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1BA4195C733800C1AE4B /* ViewController.m */; };
+		908F1BA8195C733800C1AE4B /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1BA7195C733800C1AE4B /* MyScene.m */; };
+		908F1BAA195C733800C1AE4B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 908F1BA9195C733800C1AE4B /* Spaceship.png */; };
+		908F1BAC195C733800C1AE4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908F1BAB195C733800C1AE4B /* Images.xcassets */; };
+		908F1BB3195C733800C1AE4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1BB2195C733800C1AE4B /* XCTest.framework */; };
+		908F1BB4195C733800C1AE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B89195C733800C1AE4B /* Foundation.framework */; };
+		908F1BB5195C733800C1AE4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F1B8D195C733800C1AE4B /* UIKit.framework */; };
+		908F1BBD195C733800C1AE4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 908F1BBB195C733800C1AE4B /* InfoPlist.strings */; };
+		908F1BBF195C733800C1AE4B /* WetpaintPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908F1BBE195C733800C1AE4B /* WetpaintPartyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		908F1BB6195C733800C1AE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908F1B7E195C733800C1AE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908F1B85195C733800C1AE4B;
+			remoteInfo = WetpaintParty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		908F1B86195C733800C1AE4B /* WetpaintParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetpaintParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908F1B89195C733800C1AE4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		908F1B8B195C733800C1AE4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		908F1B8D195C733800C1AE4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		908F1B8F195C733800C1AE4B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		908F1B93195C733800C1AE4B /* WetpaintParty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WetpaintParty-Info.plist"; sourceTree = "<group>"; };
+		908F1B95195C733800C1AE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		908F1B97195C733800C1AE4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		908F1B99195C733800C1AE4B /* WetpaintParty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WetpaintParty-Prefix.pch"; sourceTree = "<group>"; };
+		908F1B9A195C733800C1AE4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		908F1B9B195C733800C1AE4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		908F1B9E195C733800C1AE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		908F1BA1195C733800C1AE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		908F1BA3195C733800C1AE4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		908F1BA4195C733800C1AE4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		908F1BA6195C733800C1AE4B /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		908F1BA7195C733800C1AE4B /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		908F1BA9195C733800C1AE4B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		908F1BAB195C733800C1AE4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		908F1BB1195C733800C1AE4B /* WetpaintPartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetpaintPartyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908F1BB2195C733800C1AE4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		908F1BBA195C733800C1AE4B /* WetpaintPartyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WetpaintPartyTests-Info.plist"; sourceTree = "<group>"; };
+		908F1BBC195C733800C1AE4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		908F1BBE195C733800C1AE4B /* WetpaintPartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetpaintPartyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908F1B83195C733800C1AE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1B8C195C733800C1AE4B /* CoreGraphics.framework in Frameworks */,
+				908F1B8E195C733800C1AE4B /* UIKit.framework in Frameworks */,
+				908F1B90195C733800C1AE4B /* SpriteKit.framework in Frameworks */,
+				908F1B8A195C733800C1AE4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908F1BAE195C733800C1AE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1BB3195C733800C1AE4B /* XCTest.framework in Frameworks */,
+				908F1BB5195C733800C1AE4B /* UIKit.framework in Frameworks */,
+				908F1BB4195C733800C1AE4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		908F1B7D195C733800C1AE4B = {
+			isa = PBXGroup;
+			children = (
+				908F1B91195C733800C1AE4B /* WetpaintParty */,
+				908F1BB8195C733800C1AE4B /* WetpaintPartyTests */,
+				908F1B88195C733800C1AE4B /* Frameworks */,
+				908F1B87195C733800C1AE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		908F1B87195C733800C1AE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908F1B86195C733800C1AE4B /* WetpaintParty.app */,
+				908F1BB1195C733800C1AE4B /* WetpaintPartyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908F1B88195C733800C1AE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908F1B89195C733800C1AE4B /* Foundation.framework */,
+				908F1B8B195C733800C1AE4B /* CoreGraphics.framework */,
+				908F1B8D195C733800C1AE4B /* UIKit.framework */,
+				908F1B8F195C733800C1AE4B /* SpriteKit.framework */,
+				908F1BB2195C733800C1AE4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		908F1B91195C733800C1AE4B /* WetpaintParty */ = {
+			isa = PBXGroup;
+			children = (
+				908F1B9A195C733800C1AE4B /* AppDelegate.h */,
+				908F1B9B195C733800C1AE4B /* AppDelegate.m */,
+				908F1B9D195C733800C1AE4B /* Main_iPhone.storyboard */,
+				908F1BA0195C733800C1AE4B /* Main_iPad.storyboard */,
+				908F1BA3195C733800C1AE4B /* ViewController.h */,
+				908F1BA4195C733800C1AE4B /* ViewController.m */,
+				908F1BA6195C733800C1AE4B /* MyScene.h */,
+				908F1BA7195C733800C1AE4B /* MyScene.m */,
+				908F1BA9195C733800C1AE4B /* Spaceship.png */,
+				908F1BAB195C733800C1AE4B /* Images.xcassets */,
+				908F1B92195C733800C1AE4B /* Supporting Files */,
+			);
+			path = WetpaintParty;
+			sourceTree = "<group>";
+		};
+		908F1B92195C733800C1AE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908F1B93195C733800C1AE4B /* WetpaintParty-Info.plist */,
+				908F1B94195C733800C1AE4B /* InfoPlist.strings */,
+				908F1B97195C733800C1AE4B /* main.m */,
+				908F1B99195C733800C1AE4B /* WetpaintParty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		908F1BB8195C733800C1AE4B /* WetpaintPartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				908F1BBE195C733800C1AE4B /* WetpaintPartyTests.m */,
+				908F1BB9195C733800C1AE4B /* Supporting Files */,
+			);
+			path = WetpaintPartyTests;
+			sourceTree = "<group>";
+		};
+		908F1BB9195C733800C1AE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908F1BBA195C733800C1AE4B /* WetpaintPartyTests-Info.plist */,
+				908F1BBB195C733800C1AE4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908F1B85195C733800C1AE4B /* WetpaintParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908F1BC2195C733800C1AE4B /* Build configuration list for PBXNativeTarget "WetpaintParty" */;
+			buildPhases = (
+				908F1B82195C733800C1AE4B /* Sources */,
+				908F1B83195C733800C1AE4B /* Frameworks */,
+				908F1B84195C733800C1AE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WetpaintParty;
+			productName = WetpaintParty;
+			productReference = 908F1B86195C733800C1AE4B /* WetpaintParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		908F1BB0195C733800C1AE4B /* WetpaintPartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908F1BC5195C733800C1AE4B /* Build configuration list for PBXNativeTarget "WetpaintPartyTests" */;
+			buildPhases = (
+				908F1BAD195C733800C1AE4B /* Sources */,
+				908F1BAE195C733800C1AE4B /* Frameworks */,
+				908F1BAF195C733800C1AE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908F1BB7195C733800C1AE4B /* PBXTargetDependency */,
+			);
+			name = WetpaintPartyTests;
+			productName = WetpaintPartyTests;
+			productReference = 908F1BB1195C733800C1AE4B /* WetpaintPartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908F1B7E195C733800C1AE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wetpaint;
+				TargetAttributes = {
+					908F1BB0195C733800C1AE4B = {
+						TestTargetID = 908F1B85195C733800C1AE4B;
+					};
+				};
+			};
+			buildConfigurationList = 908F1B81195C733800C1AE4B /* Build configuration list for PBXProject "WetpaintParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908F1B7D195C733800C1AE4B;
+			productRefGroup = 908F1B87195C733800C1AE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908F1B85195C733800C1AE4B /* WetpaintParty */,
+				908F1BB0195C733800C1AE4B /* WetpaintPartyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908F1B84195C733800C1AE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1BAA195C733800C1AE4B /* Spaceship.png in Resources */,
+				908F1BAC195C733800C1AE4B /* Images.xcassets in Resources */,
+				908F1BA2195C733800C1AE4B /* Main_iPad.storyboard in Resources */,
+				908F1B9F195C733800C1AE4B /* Main_iPhone.storyboard in Resources */,
+				908F1B96195C733800C1AE4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908F1BAF195C733800C1AE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1BBD195C733800C1AE4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908F1B82195C733800C1AE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1BA8195C733800C1AE4B /* MyScene.m in Sources */,
+				908F1BA5195C733800C1AE4B /* ViewController.m in Sources */,
+				908F1B9C195C733800C1AE4B /* AppDelegate.m in Sources */,
+				908F1B98195C733800C1AE4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908F1BAD195C733800C1AE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908F1BBF195C733800C1AE4B /* WetpaintPartyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		908F1BB7195C733800C1AE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908F1B85195C733800C1AE4B /* WetpaintParty */;
+			targetProxy = 908F1BB6195C733800C1AE4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		908F1B94195C733800C1AE4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F1B95195C733800C1AE4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		908F1B9D195C733800C1AE4B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F1B9E195C733800C1AE4B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		908F1BA0195C733800C1AE4B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F1BA1195C733800C1AE4B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		908F1BBB195C733800C1AE4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908F1BBC195C733800C1AE4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		908F1BC0195C733800C1AE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		908F1BC1195C733800C1AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908F1BC3195C733800C1AE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WetpaintParty/WetpaintParty-Prefix.pch";
+				INFOPLIST_FILE = "WetpaintParty/WetpaintParty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		908F1BC4195C733800C1AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WetpaintParty/WetpaintParty-Prefix.pch";
+				INFOPLIST_FILE = "WetpaintParty/WetpaintParty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		908F1BC6195C733800C1AE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WetpaintParty.app/WetpaintParty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WetpaintParty/WetpaintParty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WetpaintPartyTests/WetpaintPartyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		908F1BC7195C733800C1AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WetpaintParty.app/WetpaintParty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WetpaintParty/WetpaintParty-Prefix.pch";
+				INFOPLIST_FILE = "WetpaintPartyTests/WetpaintPartyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908F1B81195C733800C1AE4B /* Build configuration list for PBXProject "WetpaintParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908F1BC0195C733800C1AE4B /* Debug */,
+				908F1BC1195C733800C1AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908F1BC2195C733800C1AE4B /* Build configuration list for PBXNativeTarget "WetpaintParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908F1BC3195C733800C1AE4B /* Debug */,
+				908F1BC4195C733800C1AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		908F1BC5195C733800C1AE4B /* Build configuration list for PBXNativeTarget "WetpaintPartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908F1BC6195C733800C1AE4B /* Debug */,
+				908F1BC7195C733800C1AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908F1B7E195C733800C1AE4B /* Project object */;
+}
